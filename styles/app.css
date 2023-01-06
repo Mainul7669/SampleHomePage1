@@ -45,3 +45,78 @@ header {
     color: #005FAC;
 
   }
+
+
+  .blog {
+    display: flex;
+    margin-top: 130px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+  }
+
+  .blog_img img {
+    width: 572px;
+  }
+
+  .blog-content h2{
+    font-weight: 700;
+    font-size: 40px;
+    width: 288px;
+  }
+
+  .blog-content p {
+    width: 416px;
+    margin: 20px 0;
+    line-height: 26px;
+  }
+
+  .blog-content ul {
+    margin: 20px 0;
+    line-height: 40px;
+  }
+
+  .blog-content li {
+    list-style-type: none;
+    
+  }
+
+  .blog-content li span {
+    color: rgb(18, 239, 18);
+  }
+
+
+  .my-plan {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 20vh;
+  }
+
+  .skills-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-top: 60px;
+
+}
+
+.skill {
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.skill-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 18px;
+}
