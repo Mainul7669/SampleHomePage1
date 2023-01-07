@@ -168,9 +168,9 @@ header {
 
 /* small banner section */
 .sm-banner {
-    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-image:url('../images/gradient1.png'), url('../images/watch.png');
     background-repeat: no-repeat;
-    background: linear-gradient(rgba(0, 95, 172, 0));
+    background-color: linear-gradient(to right,#005FAC 0%, rgba(0, 95, 172, 0) 100%);
     width: 1140px;
     height: 300px;
     top: 2221.96px;
@@ -180,7 +180,7 @@ header {
     background-position: center;
     padding-top: 130px;
     padding-bottom: 30px;
-    margin-bottom: 120px;
+    margin-bottom: 90px;
 }
 
 .sm-banner-container {
