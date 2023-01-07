@@ -125,10 +125,52 @@ header {
     padding-top: 18px;
 }
 
+
+/* Mentor Section */
+.mentor {
+  padding-bottom: 130px;
+}
+
+.mentor-blog {
+  display: flex;
+  margin-top: 130px;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+
+}
+
+.mentor h2 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 30px;
+    padding-bottom: 8px;
+} 
+
+.mentor p {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.mentor-blog-content li span {
+  color: rgb(18, 239, 18);
+}
+
+
+
+.mentor-blog-content li {
+  list-style-type: none;
+  line-height: 40px;
+  
+}
+
 /* small banner section */
 .sm-banner {
     background-image: url('../images/gradient1.png'), url('../images/watch.png');
     background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 95, 172, 0));
     width: 1140px;
     height: 300px;
     top: 2221.96px;
@@ -137,6 +179,8 @@ header {
     margin-right: auto;
     background-position: center;
     padding-top: 130px;
+    padding-bottom: 30px;
+    margin-bottom: 120px;
 }
 
 .sm-banner-container {
